@@ -1,58 +1,43 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mundo Pokémon</title>
+</head>
+<body>
+    <header>
+        <h1>Mundo Pokémon</h1>
+        <nav>
+            <ul>
+                <li><a href="#pikachu">Pikachu</a></li>
+                <li><a href="#charmander">Charmander</a></li>
+                <li><a href="#bulbasaur">Bulbasaur</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="pikachu">
+            <h2>Pikachu</h2>
+            <img src="https://img.pokemondb.net/sprites/home/normal/pikachu.png" alt="Pikachu">
+            <p>Pikachu é um Pokémon do tipo Elétrico. É conhecido por sua habilidade de soltar raios elétricos.</p>
+        </section>
 
-header {
-  background-color: #ffcc00;
-  padding: 20px;
-  text-align: center;
-}
+        <section id="charmander">
+            <h2>Charmander</h2>
+            <img src="https://img.pokemondb.net/sprites/home/normal/charmander.png" alt="Charmander">
+            <p>Charmander é um Pokémon do tipo Fogo. Ele é um dos Pokémon iniciais da região de Kanto.</p>
+        </section>
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 15px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-}
-
-h1 {
-  color: #fff;
-}
-
-main {
-  padding: 20px;
-}
-
-section {
-  background-color: #fff;
-  margin: 15px 0;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-img {
-  max-width: 100px;
-  display: block;
-  margin: 10px auto;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #ffcc00;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-}
+        <section id="bulbasaur">
+            <h2>Bulbasaur</h2>
+            <img src="https://img.pokemondb.net/sprites/home/normal/bulbasaur.png" alt="Bulbasaur">
+            <p>Bulbasaur é um Pokémon do tipo Planta/Venenoso. Ele também é um dos Pokémon iniciais da região de Kanto.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Mundo Pokémon</p>
+    </footer>
+</body>
+</html>
